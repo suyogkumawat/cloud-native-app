@@ -1,0 +1,16 @@
+server:
+  ha:
+    enabled: true
+    raft:
+      enabled: true
+  dataStorage:
+    enabled: true
+    size: 2Gi
+
+  affinity: {}
+  tolerations: []
+  nodeSelector: {}
+
+ui:
+  enabled: true
+
